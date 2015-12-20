@@ -1,10 +1,8 @@
 // Filename: mlcm.js
-// Timestamp: 2014.02.15-10:22:09 (last modified)  
+// Timestamp: 2015.12.20-01:01:01 (last modified)
 // Author(s): Bumblehead (www.bumblehead.com)
-// Requires:
 
-
-var mlcm = ((typeof module === 'object') ? module : {}).exports = (function (p) {
+var mlcm = module.exports = (function (p) {
 
   function gcd (numbers) {
     return numbers.reduce(function gcd(a, b) {
